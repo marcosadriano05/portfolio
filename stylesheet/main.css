@@ -1,0 +1,28 @@
+@import url('shared/variables.css');
+@import url('shared/responsivity.css');
+
+@import url('components/profile.css');
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  margin: auto;
+  width: 100%;
+  max-width: 1200px;
+  min-height: 100vh;
+  background-color: var(--color-background);
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 2rem;
+}
