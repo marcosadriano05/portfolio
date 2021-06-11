@@ -1,4 +1,7 @@
 :root {
+  --color-base-primary: hsl(200, 100%, 50%);
+  --color-base-secondary: hsl(37, 100%, 50%);
+  --color-base-ternary: hsl(7, 100%, 50%);
   --color-base-hue: 200;
   --color-background: hsl(var(--color-base-hue), 100%, 90%);
   --color-text-primary: hsl(var(--color-base-hue), 70%, 25%);
