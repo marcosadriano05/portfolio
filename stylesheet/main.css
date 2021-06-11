@@ -1,7 +1,10 @@
 @import url('shared/variables.css');
 @import url('shared/responsivity.css');
 
-@import url('components/profile.css');
+@import url('containers/profile.css');
+@import url('containers/about.css');
+
+@import url('components/card.css');
 
 *, *::before, *::after {
   margin: 0;
@@ -13,16 +16,28 @@
   font-family: 'Raleway', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+p {
+  color: var(--color-text-secondary);
+}
+
 body {
   margin: auto;
   width: 100%;
+  height: 100%;
   max-width: 1200px;
   min-height: 100vh;
   background-color: var(--color-background);
 }
 
 main {
-  width: 100%;
+  width: inherit;
+  height: inherit;
   min-height: 100vh;
   padding: 0 2rem;
 }
