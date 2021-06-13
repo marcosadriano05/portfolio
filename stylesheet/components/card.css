@@ -1,7 +1,5 @@
-@import url('../shared/variables.css');
-
 :root {
-  --color-card-background: hsl(var(--color-base-hue), 80%, 85%);
+  --color-card-background: hsl(var(--color-base-hue), 80%, 95%);
 }
 
 .card {
