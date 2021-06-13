@@ -6,6 +6,7 @@
 @import url('containers/projects.css');
 
 @import url('components/card.css');
+@import url('components/button.css');
 
 *, *::before, *::after {
   margin: 0;
