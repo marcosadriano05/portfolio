@@ -1,6 +1,6 @@
 :root {
   --color-button-primary-background: hsl(var(--color-base-hue), 70%, 25%);
-  --color-button-primary-background-hover: hsl(var(--color-base-hue), 60%, 30%);
+  --color-button-primary-background-hover: hsl(var(--color-base-hue), 100%, 35%);
   --color-button-primary: hsl(var(--color-base-hue), 100%, 95%);
 }
 
@@ -22,6 +22,7 @@
   background-color: var(--color-button-primary-background);
   color: var(--color-button-primary);
   font-weight: 500;
+  font-size: 1.2rem;
 }
 
 .btn-primary:hover {

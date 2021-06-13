@@ -50,6 +50,46 @@
   font-size: 1.5rem;
 }
 
+.profile-links {
+  list-style: none;
+  display: flex;
+}
+
+.profile-links > * {
+  margin-left: 1rem;
+}
+
+.profile-links > *:first-child {
+  margin-left: 0;
+}
+
+.profile-links li {
+  font-size: 3rem;
+  color: var(--color-text-secondary);
+}
+
+.profile-links li a {
+  padding: 0 0.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+
+.profile-links li a:hover {
+  color: hsl(var(--color-base-hue), 100%, 35%);
+}
+
+.profile-links li a:focus {
+  color: hsl(var(--color-base-hue), 100%, 35%);
+  background-color: var(--color-card-background);
+  border: 2px solid black;
+}
+
 @media (max-width: 400px) {
   .profile-info h2 {
     font-size: 2.5rem;
