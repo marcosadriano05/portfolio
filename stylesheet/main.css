@@ -4,6 +4,7 @@
 @import url('containers/profile.css');
 @import url('containers/about.css');
 @import url('containers/projects.css');
+@import url('containers/contact.css');
 
 @import url('components/header.css');
 @import url('components/footer.css');
