@@ -1,4 +1,11 @@
 :root {
+  /* New palletes */
+  --a: hsl(197, 41%, 32%);
+  --b: hsl(42, 79%, 73%);
+  --c: hsl(15, 72%, 79%);
+  --d: hsl(330, 78%, 75%);
+  /* End */
+  
   --color-base-primary: hsl(200, 100%, 50%);
   --color-base-secondary: hsl(37, 100%, 50%);
   --color-base-ternary: hsl(7, 100%, 50%);
