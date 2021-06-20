@@ -1,7 +1,3 @@
-:root {
-  --color-card-background: hsl(var(--color-base-hue), 80%, 95%);
-}
-
 .card {
   width: 100%;
   max-width: 400px;

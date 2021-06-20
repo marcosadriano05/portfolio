@@ -17,6 +17,7 @@
         <a href="#" tabindex="1">Home</a>
         <a href="#about" tabindex="2">About</a>
         <a href="#projects" tabindex="3">Projects</a>
+        <a href="#contact" tabindex="4">Contact</a>
       </nav>
     </div>
   </header>
@@ -108,11 +109,27 @@
     <section id="contact" class="contact-container">
       <h3>Contact Me</h3>
 
-      <div>
-        <ul class="contact-links">
-          <li><a href="https://linkedin.com/in/marcosadriano05" target="_blank"><i class="fab fa-linkedin"></i>Linkedin</a></li>
-          <li><a href="https://github.com/marcosadriano05" target="_blank"><i class="fab fa-github-square"></i>Github</a></li>
-        </ul>
+      <div class="contact-content">
+        <div>
+          <ul class="contact-links">
+            <li><a href="https://linkedin.com/in/marcosadriano05" target="_blank"><i class="fab fa-linkedin"></i>Linkedin</a></li>
+            <li><a href="https://github.com/marcosadriano05" target="_blank"><i class="fab fa-github-square"></i>Github</a></li>
+          </ul>
+        </div>
+
+        <form>
+          <div class="input-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name">
+          </div>
+          <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="exemple@email.com">
+          </div>
+          <label for="message">Message</label>
+          <textarea id="message"></textarea>
+          <button type="submit">Send</button>
+        </form>
       </div>
     </section>
 

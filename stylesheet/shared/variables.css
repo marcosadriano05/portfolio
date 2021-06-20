@@ -17,4 +17,10 @@
   --max-page-width: 1300px;
   --header-height: 5rem;
   --footer-height: 10rem;
+
+  --color-button-primary-background: hsl(var(--color-base-hue), 70%, 25%);
+  --color-button-primary-background-hover: hsl(var(--color-base-hue), 100%, 35%);
+  --color-button-primary: hsl(var(--color-base-hue), 100%, 95%);
+
+  --color-card-background: hsl(var(--color-base-hue), 80%, 95%);
 }
