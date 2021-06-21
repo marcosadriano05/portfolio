@@ -17,8 +17,25 @@
   gap: 2rem;
 }
 
+.contact-content h4 {
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+.contact-links-div {
+  width: 100%;
+  max-width: 500px;
+}
+
+.contact-links-div > * {
+  margin-top: 1rem;
+}
+
+.contact-links-div > *:first-child {
+  margin-top: 0;
+}
+
 .contact-links {
-  border: 1px solid black;
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -66,8 +83,6 @@
 }
 
 .contact-content form {
-  padding: 1rem;
-  border: 1px solid black;
   width: 100%;
   max-width: 500px;
   display: flex;
